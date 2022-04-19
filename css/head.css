@@ -1,0 +1,729 @@
+/* RESET START */
+/* line 3, ../sass/head.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "ConvCoreSans";
+  font-weight: 200;
+  font-size: 1em;
+  cursor: default;
+}
+
+/* line 26, ../sass/head.sass */
+a {
+  cursor: pointer;
+}
+/* line 28, ../sass/head.sass */
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 31, ../sass/head.sass */
+b {
+  font-weight: 500;
+}
+
+/* line 34, ../sass/head.sass */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+/* line 39, ../sass/head.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 43, ../sass/head.sass */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 48, ../sass/head.sass */
+q, blockquote {
+  quotes: none;
+}
+
+/* line 51, ../sass/head.sass */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 55, ../sass/head.sass */
+a img {
+  border: none;
+}
+
+/* line 58, ../sass/head.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 61, ../sass/head.sass */
+h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+  font-family: "ConthraxSb";
+}
+
+/* line 65, ../sass/head.sass */
+h3 {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: "ConthraxSb";
+}
+/* line 69, ../sass/head.sass */
+h3 a {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: "ConthraxSb";
+  color: #000;
+}
+
+/* RESET END */
+/* line 77, ../sass/head.sass */
+h2 + p {
+  margin-top: 50px;
+}
+
+/* line 80, ../sass/head.sass */
+.responsive {
+  display: block;
+  width: 100%;
+}
+
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+html.js .loader_inner {
+  background: url("../img/preloader.gif") center center no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+html.js .loader_inner img{
+  position: absolute;
+  width: 180px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -90px;
+}
+
+/* line 84, ../sass/head.sass */
+#top {
+  position: fixed;
+  display: none;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+  opacity: 0.7;
+  transition: opacity 0.1s ease;
+}
+/* line 94, ../sass/head.sass */
+#top:hover {
+  opacity: 0.85;
+  transition: opacity 0.1s ease;
+}
+/* line 97, ../sass/head.sass */
+#top img {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* line 101, ../sass/head.sass */
+.toggle-mnu {
+  float: right;
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 25px;
+  border-radius: 5px;
+  top: 8px;
+  margin-right: 20px;
+}
+/* line 110, ../sass/head.sass */
+.toggle-mnu span:after, .toggle-mnu span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+/* line 115, ../sass/head.sass */
+.toggle-mnu span:after {
+  top: 16px;
+}
+/* line 117, ../sass/head.sass */
+.toggle-mnu span {
+  position: relative;
+  display: block;
+}
+/* line 120, ../sass/head.sass */
+.toggle-mnu span, .toggle-mnu span:after, .toggle-mnu span:before {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+/* line 127, ../sass/head.sass */
+.toggle-mnu.on span {
+  background-color: transparent;
+}
+/* line 129, ../sass/head.sass */
+.toggle-mnu.on span:before {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+/* line 131, ../sass/head.sass */
+.toggle-mnu.on span:after {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* line 134, ../sass/head.sass */
+.respond-menu {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #9d9d9d;
+  background: #c6c7c4;
+}
+/* line 140, ../sass/head.sass */
+.respond-menu ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+/* line 144, ../sass/head.sass */
+.respond-menu ul li a {
+  display: block;
+  color: #000;
+  font-weight: 500;
+}
+/* line 148, ../sass/head.sass */
+.respond-menu ul li + li {
+  margin-top: 15px;
+}
+
+/* line 151, ../sass/head.sass */
+.header {
+  position: relative;
+  height: 670px;
+  background: rgba(47, 89, 6, 0.35) url(../img/patt.png);
+  overflow: hidden;
+  background-size: 6px;
+}
+/* line 157, ../sass/head.sass */
+.header__top {
+  padding: 0px 0 15px 0;
+  background: url(../img/header2.png) center top no-repeat;
+  position: relative;
+  min-height: 241px;
+}
+/* line 162, ../sass/head.sass */
+.header__social {
+  margin-top: 60px;
+  position: absolute;
+}
+/* line 165, ../sass/head.sass */
+.header__h1 {
+  margin-top: 70px;
+  color: #fff;
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 172, ../sass/head.sass */
+.header__video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -9999;
+  opacity: 0.75;
+}
+/* line 179, ../sass/head.sass */
+.header__signup {
+  background: url(../img/signup.png) 5px center no-repeat, url(../img/btn-bg1.png) center center no-repeat;
+  padding: 3px 15px 3px 30px;
+  font-family: "ConvCoreSans";
+  font-weight: 300;
+  display: inline-block;
+  border-radius: 7px;
+  box-shadow: inset 0 0 5px #2E5906, 0 0 0 3px rgba(46, 89, 6, 0.07);
+}
+/* line 187, ../sass/head.sass */
+.header__signup:hover, .header__signup:active, .header__signup:focus {
+  outline: none;
+  text-decoration: none;
+}
+/* line 190, ../sass/head.sass */
+.header__signup small {
+  color: #fff;
+  font-size: 0.687em;
+  text-transform: uppercase;
+  display: block;
+}
+/* line 195, ../sass/head.sass */
+.header__signup span {
+  color: #fff;
+  font-family: "ConthraxSb";
+  font-size: 0.812em;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 202, ../sass/head.sass */
+.header-cabinet {
+  padding-bottom: 180px;
+  position: relative;
+  height: auto;
+  background: url(../img/header-bg-cabinet.png) center center no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+/* line 210, ../sass/head.sass */
+.header-cabinet__auth {
+  margin-top: 40px;
+}
+/* line 212, ../sass/head.sass */
+.header-cabinet__social {
+  margin-top: 40px;
+}
+/* line 214, ../sass/head.sass */
+.header-cabinet__h1 {
+  margin-top: 70px;
+  color: #fff;
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 221, ../sass/head.sass */
+.header-cabinet__video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -9999;
+  opacity: 0.75;
+}
+/* line 228, ../sass/head.sass */
+.header-cabinet__signup {
+  background: url(../img/signup.png) 5px center no-repeat, url(../img/btn-bg1.png) center center no-repeat;
+  padding: 3px 15px 3px 30px;
+  font-family: "ConvCoreSans";
+  font-weight: 300;
+  display: inline-block;
+  border-radius: 7px;
+  box-shadow: inset 0 0 5px #2E5906, 0 0 0 3px rgba(46, 89, 6, 0.07);
+}
+/* line 236, ../sass/head.sass */
+.header-cabinet__signup:hover, .header-cabinet__signup:active, .header-cabinet__signup:focus {
+  outline: none;
+  text-decoration: none;
+}
+/* line 239, ../sass/head.sass */
+.header-cabinet__signup small {
+  color: #fff;
+  font-size: 0.687em;
+  text-transform: uppercase;
+  display: block;
+}
+/* line 244, ../sass/head.sass */
+.header-cabinet__signup span {
+  color: #fff;
+  font-family: "ConthraxSb";
+  font-size: 0.812em;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 251, ../sass/head.sass */
+.auth {
+  text-align: left;
+}
+/* line 253, ../sass/head.sass */
+.auth a {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.2em;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 17px;
+  display: inline-block;
+}
+/* line 261, ../sass/head.sass */
+.auth__signup {
+  padding: 3px 20px 3px 30px;
+  position: relative;
+}
+/* line 264, ../sass/head.sass */
+.auth__signup:after {
+  content: "";
+  position: absolute;
+  height: 34px;
+  width: 34px;
+  left: -10px;
+  top: -2px;
+  background: url(../img/reg-icon.png) no-repeat;
+  background-size: contain;
+}
+/* line 273, ../sass/head.sass */
+.auth__signin {
+  margin-right: 30px;
+  padding: 3px 20px 3px 40px;
+  position: relative;
+}
+/* line 277, ../sass/head.sass */
+.auth__signin:after {
+  content: "";
+  position: absolute;
+  height: 34px;
+  width: 34px;
+  left: -10px;
+  top: -2px;
+  background: url(../img/icon-login.png) no-repeat;
+  background-size: contain;
+}
+
+/* line 288, ../sass/head.sass */
+.social__icon {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 294, ../sass/head.sass */
+.social__icon:not(:first-child) {
+  margin-left: 15px;
+}
+.social__icon:nth-of-type(1) { 
+background: url(../img/social-icon.png) -27px 0px; 
+transition: 0.3s ease; 
+} 
+/* line 299, ../sass/head.sass */ 
+.social__icon:nth-of-type(1):hover { 
+background: url(../img/social-icon.png) -27px 35px; 
+transition: 0.3s ease; 
+} 
+/* line 302, ../sass/head.sass */ 
+.social__icon:nth-of-type(2) { 
+background: url(../img/social-icon.png) 60px 0px; 
+transition: 0.3s ease; 
+} 
+/* line 305, ../sass/head.sass */ 
+.social__icon:nth-of-type(2):hover { 
+background: url(../img/social-icon.png) 60px 35px; 
+transition: 0.3s ease; 
+} 
+/* line 308, ../sass/head.sass */ 
+.social__icon:nth-of-type(3) { 
+background: url(../img/social-icon.png) 108px 0px; 
+transition: 0.3s ease; 
+} 
+/* line 311, ../sass/head.sass */ 
+.social__icon:nth-of-type(3):hover { 
+background: url(../img/social-icon.png) 108px 35px; 
+transition: 0.3s ease; 
+}
+/* line 308, ../sass/head.sass */ 
+.social__icon:nth-of-type(4) { 
+background: url(../img/social-icon.png) 158px 0px; 
+transition: 0.3s ease; 
+} 
+/* line 311, ../sass/head.sass */ 
+.social__icon:nth-of-type(4):hover { 
+background: url(../img/social-icon.png) 158px 35px; 
+transition: 0.3s ease; 
+}
+
+
+/* line 315, ../sass/head.sass */
+.logo {
+  text-align: center;
+  display: block;
+  margin-top: -50px;
+}
+/* line 319, ../sass/head.sass */
+.logo img {
+  width: 100%;
+  display: block;
+}
+
+/* line 323, ../sass/head.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  list-style-type: none;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+}
+/* line 332, ../sass/head.sass */
+.menu li {
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+/* line 336, ../sass/head.sass */
+.menu li a {
+  font-family: "ConthraxSb";
+  font-size: 0.8em;
+  color: #333;
+  text-transform: uppercase;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  height: 49px;
+  line-height: 50px;
+}
+/* line 347, ../sass/head.sass */
+.menu li:hover a {
+  text-decoration: none;
+}
+/* line 349, ../sass/head.sass */
+.menu li ul {
+  display: inline-block;
+  position: absolute;
+  visibility: hidden;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+/* line 360, ../sass/head.sass */
+.menu li ul li {
+  display: block;
+  height: 20px;
+}
+/* line 363, ../sass/head.sass */
+.menu li ul li a {
+  height: 20px;
+  line-height: 20px;
+  padding-right: 0;
+  text-shadow: none !important;
+  color: #fff !important;
+}
+/* line 369, ../sass/head.sass */
+.menu li ul li a:after {
+  content: none;
+}
+
+/* line 372, ../sass/head.sass */
+.stats {
+  margin-top: 60px;
+  float: right;
+  width: 100%;
+  list-style-type: none;
+}
+/* line 377, ../sass/head.sass */
+.stats__item {
+  position: relative;
+  margin-bottom: 10px;
+  float: right;
+  height: 65px;
+  padding: 5px 30px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(71, 114, 31, 0.75)), to(rgba(71, 114, 31, 0)));
+  background: -webkit-linear-gradient(left, rgba(71, 114, 31, 0.75), rgba(71, 114, 31, 0));
+  background: -moz-linear-gradient(left, rgba(71, 114, 31, 0.75), rgba(71, 114, 31, 0));
+  background: -o-linear-gradient(left, rgba(71, 114, 31, 0.75), rgba(71, 114, 31, 0));
+  background: -ms-linear-gradient(left, rgba(71, 114, 31, 0.75), rgba(71, 114, 31, 0));
+  background: linear-gradient(left, rgba(71, 114, 31, 0.75), rgba(71, 114, 31, 0));
+  background-color: rgba(71, 114, 31, 0);
+  border-radius: 36px;
+  color: #fff;
+}
+/* line 392, ../sass/head.sass */
+.stats__item span {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+/* line 396, ../sass/head.sass */
+.stats__item small {
+  font-size: 0.7em;
+}
+/* line 398, ../sass/head.sass */
+.stats__item:nth-of-type(1) {
+  width: 60%;
+}
+/* line 400, ../sass/head.sass */
+.stats__item:nth-of-type(1) i {
+  background: url(../img/stopwatch.png) center center no-repeat;
+  background-size: auto 60%;
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+}
+/* line 409, ../sass/head.sass */
+.stats__item:nth-of-type(2) {
+  width: 70%;
+}
+/* line 411, ../sass/head.sass */
+.stats__item:nth-of-type(2) i {
+  background: url(../img/group.png) center center no-repeat;
+  background-size: auto 60%;
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+}
+/* line 420, ../sass/head.sass */
+.stats__item:nth-of-type(3) {
+  width: 40%;
+  display: inline-block;
+}
+/* line 423, ../sass/head.sass */
+.stats__item:nth-of-type(4) {
+  width: 40%;
+  display: inline-block;
+}
+
+/* line 426, ../sass/head.sass */
+.langselect {
+  width: 100px;
+  float: right;
+}
+/* line 430, ../sass/head.sass */
+.langselect__selected a {
+  position: relative;
+  padding-left: 27px;
+  padding: 8px 10px 6px 33px;
+  display: block;
+  border: 1px #fff solid;
+  color: #fff;
+  cursor: pointer;
+  background: #124757;
+  transition: background 0.2s ease;
+}
+/* line 440, ../sass/head.sass */
+.langselect__selected a img {
+  position: absolute;
+  left: 6px;
+  top: 33%;
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+}
+/* line 447, ../sass/head.sass */
+.langselect__selected a:hover {
+  background: #124757;
+  color: #fff;
+  transition: background 0.2s ease;
+}
+/* line 451, ../sass/head.sass */
+.langselect__list {
+  list-style-type: none;
+  display: none;
+  background: #fff;
+  position: absolute;
+  z-index: 100;
+}
+/* line 457, ../sass/head.sass */
+.langselect__list a {
+  position: relative;
+  padding-left: 27px;
+  padding: 8px 10px 6px 33px;
+  display: block;
+  border: 1px #fff solid;
+  color: #124757;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+/* line 466, ../sass/head.sass */
+.langselect__list a img {
+  position: absolute;
+  left: 6px;
+  top: 33%;
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+}
+/* line 473, ../sass/head.sass */
+.langselect__list a:hover {
+  background: #124757;
+  color: #fff;
+  transition: background 0.2s ease;
+}
+
+/* line 477, ../sass/head.sass */
+.line {
+  background: #fff;
+  height: 60px;
+  margin-bottom: 20px;
+}
+/* line 481, ../sass/head.sass */
+.line__wrapper {
+  height: 100%;
+}
+/* line 484, ../sass/head.sass */
+.line__marquee span {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #124757;
+  position: relative;
+}
+/* line 492, ../sass/head.sass */
+.line__marquee span:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background: rgba(167, 167, 167, 0.5);
+  display: inline-block;
+  right: -16px;
+  top: 10px;
+}

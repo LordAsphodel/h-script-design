@@ -1,0 +1,379 @@
+@media only screen and (max-width: 1199px) {
+  /* line 3, ../sass/media.sass */
+  .header_pages {
+    height: auto;
+  }
+  /* line 5, ../sass/media.sass */
+  .header__video {
+    width: 110%;
+  }
+
+  /* line 8, ../sass/media.sass */
+  .auth__signin {
+    margin-right: 15px;
+  }
+
+  /* line 11, ../sass/media.sass */
+  .advantage__item {
+    margin-top: 40px;
+  }
+  /* line 14, ../sass/media.sass */
+  .advantage__h2 {
+    margin-bottom: 65px;
+  }
+
+  /* line 17, ../sass/media.sass */
+  .ps__bg {
+    top: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .about__btns .btn {
+    margin: 15px;
+  }
+  /* line 22, ../sass/media.sass */
+  .header__video {
+    width: 145%;
+  }
+
+  /* line 25, ../sass/media.sass */
+  .header-cabinet__auth {
+    margin-top: 25px;
+  }
+
+  /* line 27, ../sass/media.sass */
+  .logo {
+    top: -95px;
+    position: absolute;
+    margin-top: 0;
+  }
+  /* line 31, ../sass/media.sass */
+  .logo img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* line 35, ../sass/media.sass */
+  .auth__signin {
+    margin-bottom: 15px;
+  }
+
+  /* line 37, ../sass/media.sass */
+  .slider {
+    width: 745px;
+    height: 428px;
+    padding: 36px 212px 62px 212px;
+    background-size: contain;
+  }
+
+  /* line 42, ../sass/media.sass */
+  .about {
+    text-align: left;
+  }
+
+  /* line 44, ../sass/media.sass */
+  .strategy {
+    text-align: left;
+  }
+  /* line 46, ../sass/media.sass */
+  .strategy img {
+    margin-bottom: 40px;
+  }
+
+  /* line 50, ../sass/media.sass */
+  .perspectives__item_1 {
+    margin-bottom: 40px;
+  }
+  /* line 52, ../sass/media.sass */
+  .perspectives__item_2 {
+    margin-bottom: 40px;
+  }
+
+  /* line 54, ../sass/media.sass */
+  .ps {
+    min-height: 415px;
+  }
+  /* line 56, ../sass/media.sass */
+  .ps__bg {
+    top: 120px;
+  }
+
+  /* line 59, ../sass/media.sass */
+  .logos__logo {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  /* line 62, ../sass/media.sass */
+  .respond-menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about__video {
+    margin-top: 50px;
+  }
+  /* line 66, ../sass/media.sass */
+  .header {
+    height: 700px;
+  }
+  /* line 68, ../sass/media.sass */
+  .header_pages {
+    height: auto;
+  }
+  /* line 70, ../sass/media.sass */
+  .header__video {
+    width: 220%;
+  }
+  /* line 72, ../sass/media.sass */
+  .header__social {
+    margin-top: 50px;
+  }
+
+  /* line 74, ../sass/media.sass */
+  .auth {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  /* line 78, ../sass/media.sass */
+  .auth__signin {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  /* line 81, ../sass/media.sass */
+  .auth__signup {
+    margin-left: 30px;
+  }
+
+  /* line 83, ../sass/media.sass */
+  .logo {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    top: -120px;
+  }
+  /* line 88, ../sass/media.sass */
+  .logo img {
+    width: 100%;
+  }
+
+  /* line 90, ../sass/media.sass */
+  .stats {
+    margin-top: 50px;
+  }
+
+  /* line 92, ../sass/media.sass */
+  .plans {
+    margin-top: -195px;
+    height: 430px;
+  }
+
+  /* line 95, ../sass/media.sass */
+  .slider {
+    width: 100%;
+    height: auto;
+    background: none;
+    padding: 0;
+    top: 105px;
+  }
+
+  /* line 102, ../sass/media.sass */
+  .about__h2_1 {
+    margin-top: 30px;
+  }
+  /* line 104, ../sass/media.sass */
+  .advantage__h2 {
+    margin-bottom: 30px;
+  }
+
+  /* line 106, ../sass/media.sass */
+  .strategy {
+    background: url(../img/strategy-right.png) bottom right no-repeat;
+    background-size: 90%;
+  }
+
+  /* line 111, ../sass/media.sass */
+  .perspectives__item_3 {
+    margin-bottom: 40px;
+  }
+
+  /* line 113, ../sass/media.sass */
+  .ps {
+    min-height: auto;
+  }
+
+  /* line 115, ../sass/media.sass */
+  .slick-dots {
+    bottom: -30px;
+    left: 10px;
+  }
+  /* line 120, ../sass/media.sass */
+  .slick-dots li button:before {
+    color: #47721F;
+  }
+
+  /* line 122, ../sass/media.sass */
+  .plan {
+    background: rgba(46, 89, 6, 0.7);
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 126, ../sass/media.sass */
+  .header {
+    height: 765px;
+  }
+  /* line 128, ../sass/media.sass */
+  .header_pages {
+    height: auto;
+  }
+  /* line 130, ../sass/media.sass */
+  .header__video {
+    width: 368%;
+  }
+  /* line 132, ../sass/media.sass */
+  .header__auth {
+    margin-top: 15px;
+  }
+  /* line 134, ../sass/media.sass */
+  .header__social {
+    position: static;
+  }
+
+  /* line 136, ../sass/media.sass */
+  .plans {
+    height: 460px;
+  }
+
+  /* line 139, ../sass/media.sass */
+  .auth__signin {
+    padding: 5px 20px 5px 30px;
+  }
+  /* line 141, ../sass/media.sass */
+  .auth a {
+    font-size: 0.9em;
+  }
+  /* line 143, ../sass/media.sass */
+  .auth__signup {
+    padding: 5px 20px 5px 30px;
+  }
+
+  /* line 146, ../sass/media.sass */
+  .about__h2_1 {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  /* line 149, ../sass/media.sass */
+  .about__h2_1:before {
+    content: none;
+  }
+  /* line 151, ../sass/media.sass */
+  .advantage__h2 {
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  /* line 155, ../sass/media.sass */
+  .advantage__h2:before {
+    content: none;
+  }
+  /* line 158, ../sass/media.sass */
+  .about__btns .btn {
+    margin: 15px;
+  }
+
+  /* line 160, ../sass/media.sass */
+  .stats {
+    margin-top: 30px;
+  }
+  /* line 163, ../sass/media.sass */
+  .stats__item:nth-of-type(1) {
+    width: 70%;
+  }
+  /* line 165, ../sass/media.sass */
+  .stats__item:nth-of-type(2) {
+    width: 80%;
+  }
+  /* line 167, ../sass/media.sass */
+  .stats__item:nth-of-type(3) {
+    width: 47%;
+  }
+  /* line 169, ../sass/media.sass */
+  .stats__item:nth-of-type(4) {
+    width: 47%;
+  }
+
+  /* line 171, ../sass/media.sass */
+  .refsys {
+    display: block;
+  }
+  /* line 173, ../sass/media.sass */
+  .refsys:before {
+    top: 30px;
+    right: -35px;
+  }
+  /* line 177, ../sass/media.sass */
+  .refsys__item:not(:first-child) {
+    display: block;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+
+  /* line 181, ../sass/media.sass */
+  .strategy {
+    margin-top: 0;
+    background: none;
+  }
+  /* line 184, ../sass/media.sass */
+  .strategy h2 {
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+  /* line 187, ../sass/media.sass */
+  .strategy h2:before {
+    content: none;
+  }
+
+  /* line 189, ../sass/media.sass */
+  .perspectives {
+    padding: 0 0 150px 0;
+  }
+  /* line 191, ../sass/media.sass */
+  .perspectives__ps {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  /* line 193, ../sass/media.sass */
+  .ps {
+    padding-left: 0;
+  }
+  /* line 195, ../sass/media.sass */
+  .ps:after {
+    content: none;
+  }
+  /* line 197, ../sass/media.sass */
+  .ps__item {
+    font-size: 1.9em;
+  }
+
+  /* line 199, ../sass/media.sass */
+  .logo {
+    width: 110px;
+    height: 110px;
+    top: -130px;
+  }
+  .plans-list > li {
+    width: auto;
+    margin-right: 0;
+    float: none;
+  }
+  .plans-list > li.plans-list-item-2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 390px;
+  }
+  .plans-list > li.plans-list-item-2 .plans-list__btn {
+    margin-top: 10px;
+  }
+}

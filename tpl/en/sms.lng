@@ -1,0 +1,7 @@
+[RegComplete.topic]
+registration is completed
+// pin
+[RegComplete.message]
+Thank you for registration on our site #sitename#!
+Your login: #login#
+Your PIN-code: #pin#

@@ -1,0 +1,113 @@
+- - - - - [03.07.17 02:39:10] - - - - -
+<cron> 3: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20170703024407')
+- - - - - [03.07.17 07:53:42] - - - - -
+<cron> 3: UPDATE Currs SET `cBal`='0.00',`cBalTS`='20170703075339' WHERE cCID='PM'
+- - - - - [09.07.17 01:01:06] - - - - -
+<cron> 4: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20170709010202')
+- - - - - [09.07.17 04:01:11] - - - - -
+<index> 9: SELECT * FROM Cfg
+- - - - - [10.07.17 11:02:06] - - - - -
+<cron> 4: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20170710110702')
+- - - - - [12.07.17 05:45:10] - - - - -
+<index> 8: SELECT * FROM Cfg
+<cron> 3: SELECT * FROM Plans WHERE pmndID>0 ORDER BY pID
+- - - - - [12.07.17 05:59:22] - - - - -
+<cron> 3: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20170712060019')
+- - - - - [12.07.17 06:04:05] - - - - -
+<index> 3: SELECT * FROM Cfg
+- - - - - [12.07.17 06:38:07] - - - - -
+<cron> 5: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20170712063902')
+- - - - - [14.07.17 22:11:42] - - - - -
+<index> 41: SELECT * FROM Cfg
+- - - - - [15.07.17 01:01:06] - - - - -
+<index> 4: SELECT * FROM Cfg
+- - - - - [18.07.17 03:46:11] - - - - -
+<cron> 9: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20170718034702')
+- - - - - [18.07.17 03:50:17] - - - - -
+<index> 16: SELECT * FROM Cfg
+- - - - - [18.07.17 05:37:09] - - - - -
+<cron> 7: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20170718054202')
+- - - - - [18.07.17 05:49:05] - - - - -
+<index> 3: SELECT * FROM Cfg
+- - - - - [18.07.17 06:03:30] - - - - -
+<cabinet> 3: UPDATE Users SET `uLIP`='172.68.10.208',`uLSess`='53f34e4dd989fc1ad1d13c7e8ae6b355',`uBFC`='0' WHERE uID=16
+- - - - - [18.07.17 06:06:06] - - - - -
+<index> 5: SELECT * FROM Cfg
+- - - - - [18.07.17 06:09:08] - - - - -
+<index> 6: SELECT * FROM Cfg
+- - - - - [18.07.17 06:38:08] - - - - -
+<index> 6: SELECT * FROM Cfg
+- - - - - [18.07.17 06:44:07] - - - - -
+<index> 6: SELECT * FROM Cfg
+- - - - - [18.07.17 06:49:29] - - - - -
+<account/login> 3: SELECT COUNT(*) AS _cnt_ FROM Tickets LEFT JOIN TMsg ON tID=mtID WHERE ISNULL(mRTS) and tuID=0 and tuID<>muID
+- - - - - [18.07.17 06:59:13] - - - - -
+<index> 12: SELECT * FROM Cfg
+- - - - - [21.07.17 12:11:07] - - - - -
+<cron> 5: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20170721121202')
+- - - - - [27.07.17 03:04:11] - - - - -
+<cron> 3: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','sms','20170727030508')
+- - - - - [27.07.17 03:05:19 +68] - - - - -
+<cron> 11: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20170727030608')
+- - - - - [27.07.17 09:06:28] - - - - -
+- - - - - [27.07.17 09:06:28] - - - - -
+- - - - - [27.07.17 09:06:28] - - - - -
+<cron> 5: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20170727091123')
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+- - - - - [01.08.17 15:24:43] - - - - -
+<cron> 4: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20170801152939')
+- - - - - [23.08.17 00:02:58] - - - - -
+<cabinet> 7: UPDATE Users SET `uLIP`='162.158.182.22',`uLSess`='ed5e66815a1e4f0bef44917ed49202e0',`uBFC`='0' WHERE uID=23
+- - - - - [19.09.17 09:55:23] - - - - -
+<news> 3: SELECT * FROM Cfg
+- - - - - [06.10.17 22:10:49] - - - - -
+<cron> 7: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Bal','RateUSD','1')
+<balance/oper> 4: SELECT * FROM Cfg
+- - - - - [09.10.17 12:24:33] - - - - -
+- - - - - [09.10.17 12:24:33] - - - - -
+- - - - - [09.10.17 12:24:33] - - - - -
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+- - - - - [09.10.17 12:24:33] - - - - -
+- - - - - [09.10.17 12:24:33] - - - - -
+- - - - - [09.10.17 12:24:33] - - - - -
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<cron> 5: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20171009122928')
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+- - - - - [11.10.17 09:37:54] - - - - -
+<cron> 6: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20171011094248')
+- - - - - [14.10.17 17:30:25] - - - - -
+<cron> 4: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20171014173521')
+<cron> 4: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','balance','20171014173521')
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<cron> 4: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 3: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+- - - - - [16.10.17 16:57:20] - - - - -
+<cron> 6: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20171016165814')
+<cron> 6: REPLACE INTO Cfg (`Module`,`Prop`,`Val`) VALUES ('Cron','depo','20171016165814')
+<account/login> 6: SELECT * FROM Cfg
+<account/login> 6: SELECT * FROM Cfg
+<account/login> 5: SELECT * FROM Cfg
+<account/login> 4: SELECT * FROM Cfg
+<account/login> 6: SELECT * FROM Cfg
+<account/login> 6: SELECT * FROM Cfg
+<account/login> 6: SELECT * FROM Cfg
+<account/login> 6: SELECT * FROM Cfg
+- - - - - [24.10.17 22:03:25] - - - - -
+<system> 4: SELECT * FROM Cfg

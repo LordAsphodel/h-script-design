@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "ConvCoreSans";
+  src: url(../fonts/ConvCoreSans/CoreSansE-25ExtraLight.woff);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ConvCoreSans";
+  src: url(../fonts/ConvCoreSans/CoreSansE-35Light.woff);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ConvCoreSans";
+  src: url(../fonts/ConvCoreSans/CoreSansE-45Regular.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ConvCoreSans";
+  src: url(../fonts/ConvCoreSans/CoreSansE-55Medium.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ConvCoreSans";
+  src: url(../fonts/ConvCoreSans/CoreSansE-65Bold.woff);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ConthraxSb";
+  src: url(../fonts/ConthraxSb/conthrax-sb.woff), url(../fonts/ConthraxSb/conthrax-sb.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Awesome";
+  src: url(../libs/awesome/fontawesome-webfont.ttf);
+}

@@ -1,0 +1,2 @@
+AddDefaultCharset cp1251
+AddType 'text/html; charset=cp1251' .html .htm .shtml

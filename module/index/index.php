@@ -1,0 +1,1 @@
+<?phprequire_once('module/auth.php');setPage('plani', $db->fetchRows($db->select('Plans', '*', '', '')));setPage('demo', $_GS['demo']);showPage();?>

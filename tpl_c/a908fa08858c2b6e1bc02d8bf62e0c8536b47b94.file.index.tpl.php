@@ -1,0 +1,44 @@
+<?php /* Smarty version Smarty-3.1.8, created on 2022-04-20 00:21:18
+         compiled from "tpl/ru\index\index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1653625f277dc658f6-52510934%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'a908fa08858c2b6e1bc02d8bf62e0c8536b47b94' => 
+    array (
+      0 => 'tpl/ru\\index\\index.tpl',
+      1 => 1510939462,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1653625f277dc658f6-52510934',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_625f277dcb24d1_27276770',
+  'variables' => 
+  array (
+    'demo' => 0,
+    'plani' => 0,
+    'p' => 0,
+    'user' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_625f277dcb24d1_27276770')) {function content_625f277dcb24d1_27276770($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('headerhome.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>'Главная'), 0);?>
+<?php if ($_smarty_tpl->tpl_vars['demo']->value){?><p class="info">Скрипт работает в <b>демонстрационном</b> режиме.<br>Некоторые функции недоступны</p><?php }?><section class="plans"><div class="container"><div class="row"><div class="col-lg-12"><div class="plans__slider slider"><?php  $_smarty_tpl->tpl_vars['p'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['p']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['plani']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['foo']['index']=-1;
+foreach ($_from as $_smarty_tpl->tpl_vars['p']->key => $_smarty_tpl->tpl_vars['p']->value){
+$_smarty_tpl->tpl_vars['p']->_loop = true;
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['foo']['index']++;
+?><div class="animated plans__plan plan slider__slide slider__slide_<?php echo $_smarty_tpl->getVariable('smarty')->value['foreach']['foo']['index'];?>
+"><h2 class="plan__h2"><?php echo $_smarty_tpl->tpl_vars['p']->value['pName'];?>
+</h2><span class="plan__perc"><?php echo $_smarty_tpl->tpl_vars['p']->value['pPerc'];?>
+% <small>в день</small></span><span class="plan__days">Бессрочно за исключением выходных дней</span><span class="plan__sum">Сумма вклада:<br>от <?php echo _z($_smarty_tpl->tpl_vars['p']->value['pMin'],2);?>
+$ до <?php echo _z($_smarty_tpl->tpl_vars['p']->value['pMax'],2);?>
+$</span><span class="plan__desc"><?php echo $_smarty_tpl->tpl_vars['p']->value['pDescr'];?>
+</span></div><?php } ?></div></div></div></div></section><section class="about"><div class="container"><div class="row"><div class="col-lg-12"><h2 class="wow fadeInLeft about__h2_1"><b>О</b> нас</h2></div><div class="col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0"><p>ForexStar Profit представляет собой команду успешных аналитиков и трейдеров, опыт которых в области инвестиций превышает 10 лет. За это время были протестированы множество стратегий и инструментов для получения стабильной прибыли. Работа идет наразличных рынках высокорисковых активов, таких как FOREX, FORTS, фондовые рынки (акции и облигации). Несмотря на то, что деятельность сопряжена с высоким риском, наша компания распределяет средства инвесторов в те инструменты, в которых риск минимизирован, а доходность остается достаточно высокой на длительном интервале времени. Деятельность ForexStar Profit направлена на то, чтоб среднестатистический человек имел возможность получать пассивный доход и наслаждаться жизнью <a href="/about">Подробнее...</a></p><div class="about__btns"><?php if ($_smarty_tpl->tpl_vars['user']->value['uID']){?><a href="/cabinet" class="btn"><span>кабинет</span></a><a href="/login?out" class="btn"><span>выйти</span></a><?php }else{ ?><a href="/registration" class="btn"><span>регистрация</span></a><a href="/login" class="btn"><span>войти</span></a><?php }?></div></div><div class="col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0"><div class="about__video"><img src="img/fx.jpg" alt=""></div></div></div></div></section><section class="advantage"><div class="container"><div class="row"><div class="col-lg-12"><h2 class="wow fadeInLeft advantage__h2"><b>Преимущества</b> работы</h2></div></div><div class="row"><div class="col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0"><div class="advantage__item advantage__item_1"><h3>Цели проекта:</h3><p>Конечная цель - это создание стабильного инструмента для пассивного дохода каждого человека. Именно для этого и были собраны одни из лучших трейдеров и аналитиков планеты. </p></div></div><div class="col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6"><div class="advantage__item advantage__item_2"><h3>Чем мы занимаемся:</h3><p>Компания осуществляет торговую деятельность на различных рынках высокорисковых активов, таких как FOREX, FORTS, фондовые рынки (акции и облигации). </p></div></div><div class="col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0"><div class="advantage__item advantage__item_3"><h3>Доход инвестора:</h3><p>Инвестор получает процент с прибыли от ведущихся торгов на рынках активах в виде дивидендов до 20% – 25% в месяц. Начисления происходят ежедневно, так что вы сможете контролировать ваши доходы почти в реальном времени.</p></div></div><div class="col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6"><div class="advantage__item advantage__item_4"><h3>Риски работы:</h3><p>Несмотря на то, что наша деятельность сопряжена с высоким риском, компания распределяет средства инвесторов в те инструменты, в которых риск минимизирован, а доходность остается достаточно высокой на длительном интервале времени. </p></div></div><div class="col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0"><div class="advantage__item advantage__item_5"><h3>Партнерская программа:</h3><p>Наша компания предоставляет партнерскую программу. Реферальная система имеет 3 уровня. Для открытия 2 и 3 линии нужно иметь 15 активных партнеров 1 линии. Все необходимые промо-материалы можно найти в вашем аккаунте. </p></div></div></div><div class="row"><div class="col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0"><div class="advantage__affilate affilate"><h3><b>Реферальная</b> система</h3><ul class="refsys affilate__refsys"><li class="refsys__item">От <b>вклада</b><span>3<small>%</small></span></li><li class="refsys__item"><span>1<small>%</small></span></li><li class="refsys__item"><span>1<small>%</small></span></li><br><li class="refsys__item">От <b>дохода</b><span>10<small>%</small></span></li><li class="refsys__item"><span>4<small>%</small></span></li><li class="refsys__item"><span>1<small>%</small></span></li></ul></div></div></div></div></section><section class="strategy"><div class="container"><div class="row"><div class="col-lg-12"><h2 class="wow fadeInLeft"><b>Стратегия</b> работы</h2></div></div><div class="row"><div class="col-md-6 col-lg-6"><img src="img/stralegy-left.png" alt=""></div><div class="col-md-6 col-lg-6"><p>Наша компания регулярно изучает рынки на наличие новых возможностей заработка. Мы постоянно расширяем географию нашей деятельности и подключаем перспективные направления инвестирования. При успешном завершении серии тестов по инвестиционной стратегии компания предоставляет возможность инвесторам присоединиться к работе по данной стратегии и получать устойчивую прибыль вместе с нашей компанией. </p></div></div></div></section><section class="perspectives"><div class="container"><div class="row"><div class="col-lg-12"><h2 class="wow fadeInLeft"><b>Перспективы</b> работы</h2></div></div><div class="row"><div class="col-sm-6 col-md-3 col-lg-3 col-lg-offset-0"><div class="perspectives__item perspectives__item_1"><h3>Доход до 280% годовых</h3></div></div><div class="col-sm-6 col-md-3 col-lg-3 col-lg-offset-0"><div class="perspectives__item perspectives__item_2"><h3>Еженедельные выплаты</h3></div></div><div class="col-sm-6 col-md-3 col-lg-3 col-lg-offset-0"><div class="perspectives__item perspectives__item_3"><h3>Расширение набора тарифов</h3></div></div><div class="col-sm-6 col-md-3 col-lg-3 col-lg-offset-0"><div class="perspectives__item perspectives__item_4"><h3>Ежедневные отчёты</h3></div></div></div><div class="row"><div class="col-lg-12 col-lg-offset-0"><div class="ps perspectives__ps"><span class="ps__item"><b>P</b>erfectmoney</span><span class="ps__item"><b>A</b>dvcash</span><!--<span class="ps__item"><b>B</b>itcoin</span> --></div><img class="ps__bg hidden-xs" src="img/main3-bg1.png" alt=""></div></div></div></section><?php echo $_smarty_tpl->getSubTemplate ('footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+<?php }} ?>

